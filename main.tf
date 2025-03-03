@@ -14,7 +14,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "hai all this my application created by terraform infrastructure nandeesh server-1" >/var/www/html/index.html
+echo "hai all this my application created by terraform infrastructure nandeesh server-1" > /var/www/html/index.html
 EOF
 tags = {
 Name = "web_server-1"
@@ -33,7 +33,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "hai all this is my application created by terraform infrastructure nandeesh server-2" >/var/www/html/index.html
+echo "hai all this is my application created by terraform infrastructure nandeesh server-2" > /var/www/html/index.html
 EOF
 tags = {
 Name = "web_server-2"
